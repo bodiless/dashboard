@@ -29,6 +29,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$customer_contact = test_input($_POST["customer_contact"]);
 	$weatherlink = test_input($_POST["weatherlink"]);
 	$modem = test_input($_POST["modem"]);
+	$customer = test_input($_POST["customer"]);
+
+	
+	if ((empty($err_machine) && empty($err_responsible))) {
+	
+	require 'save_bsu.php';
+
+	}
+
 }
 
 function test_input($data) {
