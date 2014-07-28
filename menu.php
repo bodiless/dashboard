@@ -4,5 +4,6 @@ echo '<a href="dashboard2.php">Home</a> -
 <a href="/css/default.asp">Create</a> -
 <a href="/js/default.asp">Spaces</a> -
 <a href="add_bsu.php">Add BSU</a> -
+<a href="list_bsu.php">BSU</a> -
 <a href="wiki.php">Wiki</a>';
 ?>
